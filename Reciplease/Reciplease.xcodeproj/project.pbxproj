@@ -17,6 +17,7 @@
 		EAEB398E29433B89007FFBEB /* RecipleaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB398D29433B89007FFBEB /* RecipleaseTests.swift */; };
 		EAEB399829433B89007FFBEB /* RecipleaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB399729433B89007FFBEB /* RecipleaseUITests.swift */; };
 		EAEB399A29433B89007FFBEB /* RecipleaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB399929433B89007FFBEB /* RecipleaseUITestsLaunchTests.swift */; };
+		EAEB39AD2943424A007FFBEB /* TapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB39AC2943424A007FFBEB /* TapBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EAEB399329433B89007FFBEB /* RecipleaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipleaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEB399729433B89007FFBEB /* RecipleaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipleaseUITests.swift; sourceTree = "<group>"; };
 		EAEB399929433B89007FFBEB /* RecipleaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipleaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EAEB39AC2943424A007FFBEB /* TapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			children = (
 				EAEB397729433B88007FFBEB /* ViewController.swift */,
 				EAEB39AA29433CEE007FFBEB /* Extensions */,
+				EAEB39AC2943424A007FFBEB /* TapBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAEB397E29433B88007FFBEB /* Reciplease.xcdatamodeld in Sources */,
+				EAEB39AD2943424A007FFBEB /* TapBarController.swift in Sources */,
 				EAEB397829433B88007FFBEB /* ViewController.swift in Sources */,
 				EAEB397429433B88007FFBEB /* AppDelegate.swift in Sources */,
 				EAEB397629433B88007FFBEB /* SceneDelegate.swift in Sources */,
