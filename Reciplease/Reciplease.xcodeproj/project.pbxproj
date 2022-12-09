@@ -101,14 +101,12 @@
 		EAEB397229433B88007FFBEB /* Reciplease */ = {
 			isa = PBXGroup;
 			children = (
-				EAEB397329433B88007FFBEB /* AppDelegate.swift */,
-				EAEB397529433B88007FFBEB /* SceneDelegate.swift */,
-				EAEB397729433B88007FFBEB /* ViewController.swift */,
+				EAEB39AB29433E95007FFBEB /* SupportFiles */,
+				EAEB39A829433BFC007FFBEB /* Views */,
+				EAEB39A729433BE9007FFBEB /* Controllers */,
+				EAEB39A629433BDF007FFBEB /* Models */,
 				EAEB397929433B88007FFBEB /* Main.storyboard */,
-				EAEB397F29433B89007FFBEB /* Assets.xcassets */,
-				EAEB398129433B89007FFBEB /* LaunchScreen.storyboard */,
 				EAEB398429433B89007FFBEB /* Info.plist */,
-				EAEB397C29433B88007FFBEB /* Reciplease.xcdatamodeld */,
 			);
 			path = Reciplease;
 			sourceTree = "<group>";
@@ -128,6 +126,56 @@
 				EAEB399929433B89007FFBEB /* RecipleaseUITestsLaunchTests.swift */,
 			);
 			path = RecipleaseUITests;
+			sourceTree = "<group>";
+		};
+		EAEB39A629433BDF007FFBEB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EAEB39A929433C40007FFBEB /* CoreData */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EAEB39A729433BE9007FFBEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAEB397729433B88007FFBEB /* ViewController.swift */,
+				EAEB39AA29433CEE007FFBEB /* Extensions */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EAEB39A829433BFC007FFBEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EAEB39A929433C40007FFBEB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EAEB397C29433B88007FFBEB /* Reciplease.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		EAEB39AA29433CEE007FFBEB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EAEB39AB29433E95007FFBEB /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EAEB397329433B88007FFBEB /* AppDelegate.swift */,
+				EAEB397529433B88007FFBEB /* SceneDelegate.swift */,
+				EAEB397F29433B89007FFBEB /* Assets.xcassets */,
+				EAEB398129433B89007FFBEB /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
